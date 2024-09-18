@@ -1,0 +1,2 @@
+class APIScraper:
+    pass

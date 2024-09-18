@@ -1,0 +1,52 @@
+websites:
+  - name: "Binance Announcements"
+    url: "https://www.binance.com/en/support/announcement"
+    types: ["playwright", "api"]
+    selector: 'a.css-1w8j6ia'
+
+  - name: "OKX Announcements"
+    url: "https://www.okx.com/zh-hant/help/section/announcements-latest-announcements"
+    types: ["playwright", "api"]
+    selector: 'a.okui-powerLink.index_articleItem__d-8iK'
+
+  - name: "Bybit Announcements"
+    url: "https://www.bybit.com/api/announcement"
+    types: ["api"]
+
+  - name: "Bitget Announcements"
+    url: "https://www.bitget.com/api/announcement"
+    types: ["api"]
+
+  - name: "Gate.io Announcements"
+    url: "https://www.gate.io/api/announcement"
+    types: ["api"]
+
+  - name: "BingX Announcements"
+    url: "https://bingx.com"
+    types: ["playwright", "api"]
+    selector: 'div.some_selector'
+
+  - name: "HashKey Announcements"
+    url: "https://hashkey.com"
+    types: ["playwright"]
+    selector: 'div.some_selector'
+
+  - name: "Upbit Announcements"
+    url: "https://upbit.com"
+    types: ["playwright"]
+    selector: 'div.some_selector'
+
+  - name: "Bithumb Announcements"
+    url: "https://bithumb.com"
+    types: ["playwright"]
+    selector: 'div.some_selector'
+
+  - name: "Coinglass Announcements"
+    url: "https://www.coinglass.com/zh-TW/FrArbitrage"
+    types: ["playwright"]
+    selector: '.symbol-name'
+
+  - name: "Foreight News Announcements"
+    url: "https://foresightnews.pro/news"
+    types: ["playwright"]
+    selector: 'a.news_body_title.redcolor'
